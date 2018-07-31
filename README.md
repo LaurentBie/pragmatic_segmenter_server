@@ -1,5 +1,5 @@
 # Pragmatic Segmenter Server
-[Pragmatic Segmenter](https://github.com/diasks2/pragmatic_segmenter) is a sentence segmentation tool written in Ruby. This software define an API to use it
+[Pragmatic Segmenter](https://github.com/diasks2/pragmatic_segmenter) is a sentence segmentation tool written in Ruby by Kevin Dias. This is a simple API to use it
 
 ## Install with docker
 Clone or download the repository

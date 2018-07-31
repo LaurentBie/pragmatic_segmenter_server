@@ -12,7 +12,7 @@ First, run the docker
 
 ```
 $ cd pragmatic_segmenter_server
-$ sudo docker build -t pss .
+$ sudo docker run -d -p 8500:8500  pss
 ```
 
 and then use curl
@@ -20,5 +20,5 @@ and then use curl
 curl -X POST  http://0.0.0.0:8500/segment \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
-  -d '{ "text": "Je m'\''appelle Laurent.", "lang": "fr" }'
+  -d '{ "text": "Je m'\''appelle Laurent. J'\''habite aux U.S.A. a New York.", "lang": "fr" }'
 ```

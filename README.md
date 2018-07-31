@@ -11,7 +11,6 @@ $ sudo docker build -t pss .
 First, run the docker
 
 ```
-$ cd pragmatic_segmenter_server
 $ sudo docker run -d -p 8500:8500  pss
 ```
 
